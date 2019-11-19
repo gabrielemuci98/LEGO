@@ -1,0 +1,17 @@
+doctype html
+html
+ head
+   title #{title}
+   link(rel='stylesheet', href='/css/style.css')
+   meta(name="viewport" content="width=device-width, initial-scale=1")
+ body
+   header.header
+         h1 #{title}
+   article.container
+     each l in lego
+       div.lego
+         div.lego-image(style=`background: url('/images/${l.imgSrc}') top center no-repeat; background-size: cover;`)
+         h2.lego-name
+           | #{l.firstname}
+         a(href=`/profile?id=${l.id}`)
+           | View Istruzioni

@@ -1,0 +1,20 @@
+doctype html
+html
+ head
+   title #{title}
+   link(rel='stylesheet', href='/css/style.css')
+   meta(name="viewport" content="width=device-width, initial-scale=1")
+ body
+   header.header
+         h1 #{title}
+   div.
+     div.profile-image(style=`background: url('/images/${lego.imgSrc}') top center no-repeat; background-size: cover;`)
+     div.profile-details
+       h1.profile-name
+         | #{lego.firstname}
+       h2.profile-
+         | #{lego.tagline}
+       p.profile-bio
+         | #{lego.bio}
+       a.button.button-twitter(href=`${lego.twitter}`)
+         | Follow me on Twitter
