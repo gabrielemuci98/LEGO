@@ -3,28 +3,28 @@
    {
         "firstname": "LEGO Instructions 7782 The Jokers Aerial",
         "imgSrc": "001.jpg",
-        "Set Number": "LEGO 7782",
-        "Set Theme": "Joker", 
-        "Set Name": " The Jokers Aerial",
-        "id": "7782"
+        "SetNumber": "LEGO 7782",
+        "SetTheme": "Joker", 
+        "id": "7782",
+        "instr":["004.jpg", "005.jpg","006.jpg"]
    },
 
    {
         "firstname": "LEGO Instructions 7783 The Batcave",
         "imgSrc": "002.jpg",
-        "Set Number": "LEGO 7783",
-        "Set Theme": "Batcave", 
-        "Set Name": " The Batcave",
-        "id": "7783"
+        "SetNumber": "LEGO 7783",
+        "SetTheme": "Batcave", 
+        "id": "7783",
+        "instr":["007.jpg", "008.jpg", "009.jpg"]
    },
 
    {
         "firstname": "LEGO Instructions 7781 Two-Face Escape",
         "imgSrc": "003.jpg",
-        "Set Number": "LEGO 7781",
-        "Set Theme": "Escape", 
-        "Set Name": " Two-Face Escape",
-        "id": "7781"
+        "SetNumber": "LEGO 7781",
+        "SetTheme": "Escape", 
+        "id": "7781",
+        "instr":["010.jpg", "011.jpg","012.jpg"]
    }
  ]
 }
